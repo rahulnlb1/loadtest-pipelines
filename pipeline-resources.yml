@@ -2,249 +2,197 @@ resources:
   - name: artifactory_monorepo_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
   - name: replicator_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(replicator)\/.*$
   - name: p2p_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(p2p)\/.*$
   - name: parent_pom_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(parent-pom)\/.*$
   - name: access_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(access(-pro)?)\/.*$
   - name: artifactory_pro_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(artifactory-pro)\/.*$
   - name: commons_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(commons(-pro)?)\/.*$
   - name: artifactory_oss_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(artifactory-oss)\/.*$
   - name: binary_store_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(binary-store(-pro)?)\/.*$
   - name: go_commons_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(go-commons)\/.*$
   - name: router_grpc_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(router/grpc-api)\/.*$
   - name: access_grpc_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(access/grpc-api)\/.*$
   - name: access_go_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(access-go-client)\/.*$
   - name: router_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(router)\/.*$
   - name: package_indexer_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(package-indexer)\/.*$
   - name: metadata_java_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(metadata-java-client)\/.*$
   - name: metadata_go_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(metadata-go-client)\/.*$
   - name: metadata_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(metadata)\/.*$
   - name: nodejs_commons_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(nodejs-commons)\/.*$
   - name: access_nodejs_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(access-nodejs-client)\/.*$
   - name: artifactory_nodejs_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(artifactory-nodejs-client)\/.*$
   - name: metadata_nodejs_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(metadata-nodejs-client)\/.*$
   - name: event_grpc_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(event/grpc-api)\/.*$
   - name: event_service_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(event/service)\/.*$
   - name: event_service_e2e_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(event/(service|e2e-tests))\/.*$
   - name: event_java_client_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^(event/client-java)\/.*$
   - name: artifactory_ci_scripts_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
-      files:
-        include: ^build/ci/scripts\/.*$
   - name: artifactory_release_bitbucket
     type: GitRepo
     configuration:
-      path: ~bharathu/controlplane
-      gitProvider: bharath_bbs
+      path: rahulnlb1/loadtest-pipelines
+      gitProvider: Github
       branches:
         include: ^{{gitBranch}}$
       buildOn:
